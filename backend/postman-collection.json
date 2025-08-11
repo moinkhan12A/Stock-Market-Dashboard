@@ -1,0 +1,29 @@
+{
+  "info": { "name": "Stock Dashboard Backend", "_postman_id": "stock-backend-collection", "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json" },
+  "item": [
+    {
+      "name": "Get Companies",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": { "raw": "http://localhost:5000/api/companies", "protocol": "http", "host": ["localhost"], "port": "5000", "path": ["api","companies"] }
+      }
+    },
+    {
+      "name": "Get Stock Prices (example TCS)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": { "raw": "http://localhost:5000/api/stock/TCS", "protocol": "http", "host": ["localhost"], "port": "5000", "path": ["api","stock","TCS"] }
+      }
+    },
+    {
+      "name": "Get Stock Summary (TCS)",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": { "raw": "http://localhost:5000/api/stock/TCS/summary", "protocol": "http", "host": ["localhost"], "port": "5000", "path": ["api","stock","TCS","summary"] }
+      }
+    }
+  ]
+}
