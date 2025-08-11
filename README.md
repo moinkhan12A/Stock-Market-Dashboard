@@ -67,6 +67,4 @@ npm run generate
 # 3. Start server
 npm start
 
-# 4. Access APIs
-# Example: http://localhost:5000/api/companies
-# Example: http://localhost:5000/api/stock/TCS/predict
+
